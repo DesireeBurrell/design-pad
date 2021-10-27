@@ -12,37 +12,37 @@ export class PadInput extends Component {
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     1
                     </div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     2
                     </div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     3
                     </div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     4
                     </div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     5
                     </div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     6
                     </div> 
                <div style={{width:'50px',
@@ -50,11 +50,11 @@ export class PadInput extends Component {
                borderRadius:'15px',
                backgroundColor:'lightgray'
                ,}
-               }draggable='true'> 7</div> 
+               }draggable={this.props.bol}> 7</div> 
                <div style={{width:'50px',
                borderRadius:'15px',
                backgroundColor:'lightgray',}}
-               draggable='true'>
+               draggable={this.props.bol}>
                     8
                     </div> 
                 
