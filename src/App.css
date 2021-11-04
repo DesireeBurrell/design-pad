@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.blackButton{
+  background-color: black;
+  color: white;
+}
+
+.redButton{
+  background-color: red;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
